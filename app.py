@@ -491,7 +491,7 @@ def print_report(component: str, file_path: str, results: Dict[str, bool], extra
     print(f"{'='*60}\n")
 
 def main():
-    parser = argparse.ArgumentParser(description="DLT Log Analyzer")
+    parser = argparse.ArgumentParser(description="Telematics AI Assistant")
     parser.add_argument("--product", choices=["IDCEVO", "IDC23"], default="IDCEVO", help="Product selection (IDCEVO or IDC23)")
     parser.add_argument("--inad", help="Path to INAD.dlt file (IDCEVO product)")
     parser.add_argument("--ibam", help="Path to IBAM.dlt file (IDCEVO product)")

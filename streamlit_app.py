@@ -4,7 +4,7 @@ import os
 import tempfile
 from app import analyze_file, EXPECTED_PAYLOADS
 
-st.set_page_config(page_title="DLT Log Analyzer", layout="wide", page_icon="📝")
+st.set_page_config(page_title="Telematics AI Assistant", layout="wide", page_icon="📝")
 
 st.title("📝 Telematics AI Assistant")
 st.markdown("Upload your component `.dlt` logs to verify ECU IDs and analyze diagnostic payloads securely.")
